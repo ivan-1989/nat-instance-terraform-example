@@ -1,0 +1,17 @@
+# Terraform specific
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.tfstate.lock.info
+.terraform.lock.hcl
+*.tfvars
+
+# Common file keys
+key.json
+
+# Other
+*.0_x5
+
+# Service account key files
+key.json
+
