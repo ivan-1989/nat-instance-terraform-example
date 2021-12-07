@@ -36,7 +36,7 @@ export YC_FOLDER_ID=$(yc config get folder-id)
 ```bash
 terraform init
 terraform plan
-terraform applys
+terraform apply
 ```
 
 ## Валидация плебука
