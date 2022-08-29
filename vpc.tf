@@ -14,6 +14,10 @@ resource "yandex_vpc_route_table" "rt-inet" {
     destination_prefix = "213.180.193.243/32"
     next_hop_address   = "10.0.0.5"
   }
+    static_route {
+    destination_prefix = "84.201.181.26/32"
+    next_hop_address   = "10.0.0.5"
+  }
 }
 
 resource "yandex_vpc_subnet" "public-subnet" {
@@ -31,4 +35,3 @@ resource "yandex_vpc_subnet" "k8s-subnet" {
   v4_cidr_blocks = ["10.50.0.0/24"]
   route_table_id = yandex_vpc_route_table.rt-inet.id
 }
-
