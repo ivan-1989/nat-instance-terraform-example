@@ -35,7 +35,7 @@ resource "yandex_vpc_security_group" "sg-inet-acc" {
   egress {
     protocol       = "TCP"
     description    = "NAT-INSTANCE can forward traaffic towards container registry, api and yandex storage"
-    v4_cidr_blocks = ["84.201.171.239/32", "213.180.193.243/32", "84.201.181.26"]
+    v4_cidr_blocks = ["84.201.171.239/32", "213.180.193.243/32", "84.201.181.26/32"]
   }
 }
 
