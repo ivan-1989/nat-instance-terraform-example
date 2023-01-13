@@ -1,10 +1,9 @@
-
-variable "folder_id" {
+variable "YC_FOLDER_ID" {
   description = "infra folder for main resources"
-  default     = "enter your folder id"
+  type = string
 }
 
-variable "cloud_id" {
+variable "YC_CLOUD_ID" {
   description = "Yandex Cloud ID where resources will be created"
-  default     = "there is cloud id"
+  type = string
 }

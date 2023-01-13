@@ -1,6 +1,4 @@
 provider "yandex" {
-  cloud_id = var.cloud_id
-  folder_id = var.folder_id
+  cloud_id = var.YC_CLOUD_ID
+  folder_id = var.YC_FOLDER_ID
 }
-
-

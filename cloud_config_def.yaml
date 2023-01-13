@@ -9,4 +9,4 @@ users:
     shell: /bin/bash
     groups: wheel
     ssh_authorized_keys:
-      - ssh-rsa сюда_нужно_указать_публичный_ключ
+      - ssh-rsa ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDNfpTzPZJ4qaYt1R77bcn0gySKeVZJuUIkQDDjUzZycam6Au5oUoju0p6l7FUUwHbpsrLhcsxjHOvAaYfuEr7CoV672yO1KFFA5taMFTDyBWehWo71PbVTjsZNePe0zb6vBip0dP7AQhjErdB3AFv8+AbZKrqcRwpXRlpZIQQBPqRkefCLeJf6sNhY6qRPM0r33KJxnSe5QW37+rOiFWTbL0SZ0OTNESKoz0B0rRLH8JkZ8KRbawprnYJeUvYWHnKhqS+CnOJQvmWzmp85PIdZJVAYc21FuqpfwRdbrG1SeAPYf/5EE+Nlx093pP90ERV1QdKcDaI1WL/wPa0vslyF ivan@LAPTOP-0DTP5SJ9
